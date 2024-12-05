@@ -1,0 +1,47 @@
+{
+    "dependencies": [
+        {
+            "name": "crow",
+            "default-features": true
+        },
+        {
+            "name": "cppkafka",
+            "default-features": true
+        },
+        {
+            "name": "aws-sdk-cpp",
+            "default-features": false,
+            "features": ["s3", "sqs"]
+        },
+        {
+            "name": "cpr",
+            "default-features": true
+        },
+        {
+            "name": "boost-uuid",
+            "default-features": true
+        }
+    ],
+    "overrides": [
+        { 
+            "name": "crow", 
+            "version": "1.2.0"
+        },
+        { 
+            "name": "cppkafka", 
+            "version": "0.4.0"
+        },
+        { 
+            "name": "aws-sdk-cpp", 
+            "version": "1.11.428"
+        },
+        { 
+            "name": "cpr", 
+            "version": "1.11.0"
+        },
+        { 
+            "name": "boost-uuid", 
+            "version": "1.85.0"
+        }
+  ]
+}

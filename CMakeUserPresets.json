@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "configurePresets": [
+      {
+        "name": "release",
+        "inherits": "Release"
+      },
+      {
+        "name": "debug",
+        "inherits": "Debug"
+      }
+    ]
+}
